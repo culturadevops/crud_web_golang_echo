@@ -1,0 +1,5 @@
+curl -d "title=value1&description=value2" -X POST http://localhost:8081/
+curl -d '{"title":"mititle", "description":"description"}' -H "Content-Type: application/json" -X POST http://localhost:8081/
+
+curl -d '{"title":"mititlehola", "description":"descriptionhola"}' -H "Content-Type: application/json" -X PUT http://localhost:8081/1
+curl  -X DELETE http://localhost:8081/1

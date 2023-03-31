@@ -1,0 +1,13 @@
+
+[default]
+host = "172.17.0.2"
+port = "3306"
+database = "platzidemo"
+user = "root"
+password ="secret"
+charset = "utf8"
+sql_log = false
+owner="root"
+
+MaxIdleConns = 10 #空闲时最大的连接数
+MaxOpenConns = 100 #最大的连接数 
